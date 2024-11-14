@@ -1,6 +1,6 @@
 {
   "name": "react-native-ui-bundle",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "description": "A lightweight React Native library for essential UI components.",
   "source": "./src\\index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -15,10 +15,12 @@
         "types": "./lib\\typescript\\commonjs\\src\\index.d.ts",
         "default": "./lib\\commonjs\\index.js"
       }
-    }
+    },
+    "./assets/*": "./lib/assets/*"
   },
   "files": [
     "src",
+    "assets",
     "lib",
     "android",
     "ios",
@@ -183,5 +185,8 @@
     "type": "library",
     "version": "0.43.0"
   },
-  "types": "./lib\\typescript\\commonjs\\src\\index.d.ts"
+  "types": "./lib\\typescript\\commonjs\\src\\index.d.ts",
+  "dependencies": {
+    "react-native-vector-icons": "^10.2.0"
+  }
 }
