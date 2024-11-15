@@ -12,11 +12,16 @@ npm install react-native-ui-bundle
 
 
 ```js
-import { multiply } from 'react-native-ui-bundle';
+import { CustomCard } from 'react-native-ui-bundle';
 
 // ...
+ <CustomCard
+        title="Sample Card"
+        image={require('./assets/your_image_path')}
+        content="This is a sample card with an image and some text."
+        onPress={() => Alert.alert('Card Pressed!')}
+ />
 
-const result = await multiply(3, 7);
 ```
 
 

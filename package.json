@@ -1,6 +1,6 @@
 {
   "name": "react-native-ui-bundle",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A lightweight React Native library for essential UI components.",
   "source": "./src\\index.tsx",
   "main": "./lib/commonjs/index.js",

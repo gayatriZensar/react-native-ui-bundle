@@ -10,7 +10,6 @@ interface CardProps {
 
 const CustomCard: React.FC<CardProps> = ({ title, image, content, onPress }) => (
   <TouchableOpacity style={styles.card} onPress={onPress} activeOpacity={0.8}>
-    {/* Circular image positioned above the card */}
     {image && <Image source={image} style={styles.image} />}
     
     <View style={styles.content}>
